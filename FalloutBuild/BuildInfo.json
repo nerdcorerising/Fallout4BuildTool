@@ -1,0 +1,1896 @@
+﻿{
+  "special": [ "strength", "perception", "endurance", "charisma", "intelligence", "agility", "luck" ],
+  "perks": [
+    {
+      "Iron Fist": [
+        {
+          "specialPreReq": { "strength": 1 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": 0 }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": 9 }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": 18 }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": 31 }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": 46 }
+        }
+      ]
+    },
+    {
+      "Big Leagues": [
+        {
+          "specialPreReq": { "strength": 2 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": 0 }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": 7 }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": 15 }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": 27 }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": 42 }
+        }
+      ]
+    },
+    {
+      "Armorer": [
+        {
+          "specialPreReq": { "strength": 3 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "strength": 4 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "strength": 5 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "strength": 6 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "strength": 7 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "strength": 8 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "strength": 9 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "strength": 10 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 1 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 2 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 3 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 4 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 5 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 6 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 7 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 8 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 9 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "perception": 10 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 1 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 2 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 3 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 4 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 5 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 6 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 7 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 8 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 9 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "endurance": 10 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 1 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 2 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 3 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 4 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 5 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 6 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 7 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 8 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 9 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "charisma": 10 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 1 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 2 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 3 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 4 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 5 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 6 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 7 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 8 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 9 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "intelligence": 10 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 1 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 2 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 3 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 4 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 5 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 6 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 7 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 8 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 9 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "agility": 10 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 1 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 2 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 3 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 4 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 5 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 6 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 7 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 8 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 9 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    },
+    {
+      "NIY": [
+        {
+          "specialPreReq": { "luck": 10 }
+        },
+        {
+          "rank": 1,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 2,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 3,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 4,
+          "preReq": { "level": }
+        },
+        {
+          "rank": 5,
+          "preReq": { "level": }
+        }
+      ]
+    }
+  ]
+}
+
