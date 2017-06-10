@@ -2,1414 +2,1344 @@
   "special": [ "strength", "perception", "endurance", "charisma", "intelligence", "agility", "luck" ],
   "perks": [
     {
-      "Iron Fist": {
-        "specialPreReq": { "strength": 1 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 9
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 18
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 31
-          },
-          {
-            "rank": 5,
-            "levelPreReq": 46
-          }
-        ]
-      }
-    },
-    {
-      "Big Leagues": {
-        "specialPreReq": { "strength": 2 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 7
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 15
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 27
-          },
-          {
-            "rank": 5,
-            "levelPreReq": 42
-          }
-        ]
-      }
-    },
-    {
-      "Armorer": {
-        "specialPreReq": { "strength": 3 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 13
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 25
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 39
-          }
-        ]
-      }
-    },
-    {
-      "Blacksmith": {
-        "specialPreReq": { "strength": 4 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 16
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 29
-          }
-        ]
-      }
-    },
-    {
-      "Heavy Gunner": {
-        "specialPreReq": { "strength": 5 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 11
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 21
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 35
-          },
-          {
-            "rank": 5,
-            "levelPreReq": 47
-          }
-        ]
-      }
-    },
-    {
-      "Strong Back": {
-        "specialPreReq": { "strength": 6 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 10
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 20
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 30
-          }
-        ]
-      }
-    },
-    {
-      "Steady Aim": {
-        "specialPreReq": { "strength": 7 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 28
-          }
-        ]
-      }
-    },
-    {
-      "Basher": {
-        "specialPreReq": { "strength": 8 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 5
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 14
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 26
-          }
-        ]
-      }
-    },
-    {
-      "Rooted": {
-        "specialPreReq": { "strength": 9 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 22
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 43
-          }
-        ]
-      }
-    },
-    {
-      "Pain Train": {
-        "specialPreReq": { "strength": 10 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 24
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 50
-          }
-        ]
-      }
-    },
-    {
-      "Pickpocket": {
-        "specialPreReq": { "perception": 1 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 6
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 17
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 30
-          }
-        ]
-      }
-    },
-    {
-      "Rifleman": {
-        "specialPreReq": { "perception": 2 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 9
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 18
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 31
-          },
-          {
-            "rank": 5,
-            "levelPreReq": 46
-          }
-        ]
-      }
-    },
-    {
-      "Awareness": {
-        "specialPreReq": { "perception": 3 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          }
-        ]
-      }
-    },
-    {
-      "Locksmith": {
-        "specialPreReq": { "perception": 4 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 7
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 18
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 41
-          }
-        ]
-      }
-    },
-    {
-      "Demolition Expert": {
-        "specialPreReq": { "perception": 5 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 10
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 22
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 34
-          }
-        ]
-      }
-    },
-    {
-      "Night Person": {
-        "specialPreReq": { "perception": 6 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 25
-          }
-        ]
-      }
-    },
-    {
-      "Refractor": {
-        "specialPreReq": { "perception": 7 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 11
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 21
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 35
-          },
-          {
-            "rank": 5,
-            "levelPreReq": 42
-          }
-        ]
-      }
-    },
-    {
-      "Sniper": {
-        "specialPreReq": { "perception": 8 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 13
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 26
-          }
-        ]
-      }
-    },
-    {
-      "Penetrator": {
-        "specialPreReq": { "perception": 9 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 28
-          }
-        ]
-      }
-    },
-    {
-      "Concentrated Fire": {
-        "specialPreReq": { "perception": 10 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 26
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 50
-          }
-        ]
-      }
-    },
-    {
-      "Toughness": {
-        "specialPreReq": { "endurance": 1 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 9
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 18
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 31
-          },
-          {
-            "rank": 5,
-            "levelPreReq": 46
-          }
-        ]
-      }
-    },
-    {
-      "Lead Belly": {
-        "specialPreReq": { "endurance": 2 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 6
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 17
-          }
-        ]
-      }
-    },
-    {
-      "Lifegiver": {
-        "specialPreReq": { "endurance": 3 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 8
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 20
-          }
-        ]
-      }
-    },
-    {
-      "Chem Resistant": {
-        "specialPreReq": { "endurance": 4 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 22
-          }
-        ]
-      }
-    },
-    {
-      "Aquaboy": {
-        "specialPreReq": { "endurance": 5 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 21
-          }
-        ]
-      }
-    },
-    {
-      "Rad Resistant": {
-        "specialPreReq": { "endurance": 6 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 13
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 26
-          }
-        ]
-      }
-    },
-    {
-      "Adamantium Skeleton": {
-        "specialPreReq": { "endurance": 7 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 13
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 26
-          }
-        ]
-      }
-    },
-    {
-      "Cannibal": {
-        "specialPreReq": { "endurance": 8 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 19
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 38
-          }
-        ]
-      }
-    },
-    {
-      "Ghoulish": {
-        "specialPreReq": { "endurance": 9 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 24
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 48
-          }
-        ]
-      }
-    },
-    {
-      "Solar Powered": {
-        "specialPreReq": { "endurance": 10 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 27
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 50
-          }
-        ]
-      }
-    },
-    {
-      "Cap Collector": {
-        "specialPreReq": { "charisma": 1 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 20
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 41
-          }
-        ]
-      }
-    },
-    {
-      "Lady Killer": {
-        "specialPreReq": { "charisma": 2 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 7
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 22
-          }
-        ]
-      }
-    },
-    {
-      "Lone Wanderer": {
-        "specialPreReq": { "charisma": 3 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 17
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 40
-          }
-        ]
-      }
-    },
-    {
-      "Attack Dog": {
-        "specialPreReq": { "charisma": 4 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 9
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 25
-          }
-        ]
-      }
-    },
-    {
-      "Animal Friend": {
-        "specialPreReq": { "charisma": 5 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 12
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 28
-          }
-        ]
-      }
-    },
-    {
-      "Local Leader": {
-        "specialPreReq": { "charisma": 6 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 14
-          }
-        ]
-      }
-    },
-    {
-      "Party Boy": {
-        "specialPreReq": { "charisma": 7 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 15
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 37
-          }
-        ]
-      }
-    },
-    {
-      "Inspirational": {
-        "specialPreReq": { "charisma": 8 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 19
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 43
-          }
-        ]
-      }
-    },
-    {
-      "Wasteland Whisperer": {
-        "specialPreReq": { "charisma": 9 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 21
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 49
-          }
-        ]
-      }
-    },
-    {
-      "Intimidation": {
-        "specialPreReq": { "charisma": 10 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 23
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 50
-          }
-        ]
-      }
-    },
-    {
-      "V.A.N.S": {
-        "specialPreReq": { "intelligence": 1 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          }
-        ]
-      }
-    },
-    {
-      "Medic": {
-        "specialPreReq": { "intelligence": 2 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 18
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 30
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 49
-          }
-        ]
-      }
-    },
-    {
-      "Gun Nut": {
-        "specialPreReq": { "intelligence": 3 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 13
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 25
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 39
-          }
-        ]
-      }
-    },
-    {
-      "Hacker": {
-        "specialPreReq": { "intelligence": 4 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 9
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 21
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 33
-          }
-        ]
-      }
-    },
-    {
-      "Scrapper": {
-        "specialPreReq": { "intelligence": 5 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 23
-          }
-        ]
-      }
-    },
-    {
-      "Science!": {
-        "specialPreReq": { "intelligence": 6 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 17
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 28
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 41
-          }
-        ]
-      }
-    },
-    {
-      "Chemist": {
-        "specialPreReq": { "intelligence": 7 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 16
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 32
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 45
-          }
-        ]
-      }
-    },
-    {
-      "Robotics Expert": {
-        "specialPreReq": { "intelligence": 8 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 19
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 44
-          }
-        ]
-      }
-    },
-    {
-      "Nuclear Physicist": {
-        "specialPreReq": { "intelligence": 9 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 14
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 26
-          }
-        ]
-      }
-    },
-    {
-      "Nerd Rage!": {
-        "specialPreReq": { "intelligence": 10 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 31
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 50
-          }
-        ]
-      }
-    },
-    {
-      "Gunslinger": {
-        "specialPreReq": { "agility": 1 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 7
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 15
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 27
-          },
-          {
-            "rank": 5,
-            "levelPreReq": 42
-          }
-        ]
-      }
-    },
-    {
-      "Comando": {
-        "specialPreReq": { "agility": 2 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 11
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 21
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 35
-          },
-          {
-            "rank": 5,
-            "levelPreReq": 49
-          }
-        ]
-      }
-    },
-    {
-      "Sneak": {
-        "specialPreReq": { "agility": 3 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 5
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 12
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 23
-          },
-          {
-            "rank": 5,
-            "levelPreReq": 38
-          }
-        ]
-      }
-    },
-    {
-      "Mister Sandman": {
-        "specialPreReq": { "agility": 4 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 17
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 30
-          }
-        ]
-      }
-    },
-    {
-      "Action Boy": {
-        "specialPreReq": { "agility": 5 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 18
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 38
-          }
-        ]
-      }
-    },
-    {
-      "Moving Target": {
-        "specialPreReq": { "agility": 6 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 24
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 44
-          }
-        ]
-      }
-    },
-    {
-      "Ninja": {
-        "specialPreReq": { "agility": 7 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 16
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 33
-          }
-        ]
-      }
-    },
-    {
-      "Quick Hands": {
-        "specialPreReq": { "agility": 8 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 28
-          }
-        ]
-      }
-    },
-    {
-      "Blitz": {
-        "specialPreReq": { "agility": 9 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 29
-          }
-        ]
-      }
-    },
-    {
-      "Gun Fu": {
-        "specialPreReq": { "agility": 10 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 26
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 50
-          }
-        ]
-      }
-    },
-    {
-      "Fortune Finder": {
-        "specialPreReq": { "luck": 1 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 5
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 25
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 40
-          }
-        ]
-      }
-    },
-    {
-      "Scrounger": {
-        "specialPreReq": { "luck": 2 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 7
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 24
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 37
-          }
-        ]
-      }
-    },
-    {
-      "Bloody Mess": {
-        "specialPreReq": { "luck": 3 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 9
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 31
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 47
-          }
-        ]
-      }
-    },
-    {
-      "Mysterious Stranger": {
-        "specialPreReq": { "luck": 4 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 22
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 41
-          }
-        ]
-      }
-    },
-    {
-      "Idiot Savant": {
-        "specialPreReq": { "luck": 5 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 11
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 34
-          }
-        ]
-      }
-    },
-    {
-      "Better Criticals": {
-        "specialPreReq": { "luck": 6 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 15
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 40
-          }
-        ]
-      }
-    },
-    {
-      "Critical Banker": {
-        "specialPreReq": { "luck": 7 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 17
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 43
-          }
-        ]
-      }
-    },
-    {
-      "Grim Reaper's Sprint": {
-        "specialPreReq": { "luck": 8 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 19
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 46
-          }
-        ]
-      }
-    },
-    {
-      "Four Leaf Clover": {
-        "specialPreReq": { "luck": 9 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 14
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 32
-          },
-          {
-            "rank": 4,
-            "levelPreReq": 48
-          }
-        ]
-      }
-    },
-    {
-      "Ricochet": {
-        "specialPreReq": { "luck": 10 },
-        "ranks": [
-          {
-            "rank": 1,
-            "levelPreReq": 0
-          },
-          {
-            "rank": 2,
-            "levelPreReq": 29
-          },
-          {
-            "rank": 3,
-            "levelPreReq": 50
-          }
-        ]
-      }
+      "name": "Iron Fist",
+      "specialPreReq": { "type": "strength", "level": 1 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 9
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 18
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 31
+        },
+        {
+          "rank": 5,
+          "levelPreReq": 46
+        }
+      ]
+    },
+    {
+      "name": "Big Leagues",
+      "specialPreReq": { "type": "strength", "level": 2 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 7
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 15
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 27
+        },
+        {
+          "rank": 5,
+          "levelPreReq": 42
+        }
+      ]
+    },
+    {
+      "name": "Armorer",
+      "specialPreReq": { "type": "strength", "level": 3 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 13
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 25
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 39
+        }
+      ]
+    },
+    {
+      "name": "Blacksmith",
+      "specialPreReq": { "type": "strength", "level": 4 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 16
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 29
+        }
+      ]
+    },
+    {
+      "name": "Heavy Gunner",
+      "specialPreReq": { "type": "strength", "level": 5 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 11
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 21
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 35
+        },
+        {
+          "rank": 5,
+          "levelPreReq": 47
+        }
+      ]
+    },
+    {
+      "name": "Strong Back",
+      "specialPreReq": { "type": "strength", "level": 6 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 10
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 20
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 30
+        }
+      ]
+    },
+    {
+      "name": "Steady Aim",
+      "specialPreReq": { "type": "strength", "level": 7 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 28
+        }
+      ]
+    },
+    {
+      "name": "Basher",
+      "specialPreReq": { "type": "strength", "level": 8 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 5
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 14
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 26
+        }
+      ]
+    },
+    {
+      "name": "Rooted",
+      "specialPreReq": { "type": "strength", "level": 9 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 22
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 43
+        }
+      ]
+    },
+    {
+      "name": "Pain Train",
+      "specialPreReq": { "type": "strength", "level": 10 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 24
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 50
+        }
+      ]
+    },
+    {
+      "name": "Pickpocket",
+      "specialPreReq": { "type": "perception", "level": 1 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 6
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 17
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 30
+        }
+      ]
+    },
+    {
+      "name": "Rifleman",
+      "specialPreReq": { "type": "perception", "level": 2 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 9
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 18
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 31
+        },
+        {
+          "rank": 5,
+          "levelPreReq": 46
+        }
+      ]
+    },
+    {
+      "name": "Awareness",
+      "specialPreReq": { "type": "perception", "level": 3 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        }
+      ]
+    },
+    {
+      "name": "Locksmith",
+      "specialPreReq": { "type": "perception", "level": 4 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 7
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 18
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 41
+        }
+      ]
+    },
+    {
+      "name": "Demolition Expert",
+      "specialPreReq": { "type": "perception", "level": 5 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 10
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 22
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 34
+        }
+      ]
+    },
+    {
+      "name": "Night Person",
+      "specialPreReq": { "type": "perception", "level": 6 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 25
+        }
+      ]
+    },
+    {
+      "name": "Refractor",
+      "specialPreReq": { "type": "perception", "level": 7 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 11
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 21
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 35
+        },
+        {
+          "rank": 5,
+          "levelPreReq": 42
+        }
+      ]
+    },
+    {
+      "name": "Sniper",
+      "specialPreReq": { "type": "perception", "level": 8 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 13
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 26
+        }
+      ]
+    },
+    {
+      "name": "Penetrator",
+      "specialPreReq": { "type": "perception", "level": 9 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 28
+        }
+      ]
+    },
+    {
+      "name": "Concentrated Fire",
+      "specialPreReq": { "type": "perception", "level": 10 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 26
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 50
+        }
+      ]
+    },
+    {
+      "name": "Toughness",
+      "specialPreReq": { "type": "endurance", "level": 1 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 9
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 18
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 31
+        },
+        {
+          "rank": 5,
+          "levelPreReq": 46
+        }
+      ]
+    },
+    {
+      "name": "Lead Belly",
+      "specialPreReq": { "type": "endurance", "level": 2 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 6
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 17
+        }
+      ]
+    },
+    {
+      "name": "Lifegiver",
+      "specialPreReq": { "type": "endurance", "level": 3 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 8
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 20
+        }
+      ]
+    },
+    {
+      "name": "Chem Resistant",
+      "specialPreReq": { "type": "endurance", "level": 4 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 22
+        }
+      ]
+    },
+    {
+      "name": "Aquaboy",
+      "specialPreReq": { "type": "endurance", "level": 5 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 21
+        }
+      ]
+    },
+    {
+      "name": "Rad Resistant",
+      "specialPreReq": { "type": "endurance", "level": 6 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 13
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 26
+        }
+      ]
+    },
+    {
+      "name": "Adamantium Skeleton",
+      "specialPreReq": { "type": "endurance", "level": 7 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 13
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 26
+        }
+      ]
+    },
+    {
+      "name": "Cannibal",
+      "specialPreReq": { "type": "endurance", "level": 8 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 19
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 38
+        }
+      ]
+    },
+    {
+      "name": "Ghoulish",
+      "specialPreReq": { "type": "endurance", "level": 9 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 24
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 48
+        }
+      ]
+    },
+    {
+      "name": "Solar Powered",
+      "specialPreReq": { "type": "endurance", "level": 10 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 27
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 50
+        }
+      ]
+    },
+    {
+      "name": "Cap Collector",
+      "specialPreReq": { "type": "charisma", "level": 1 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 20
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 41
+        }
+      ]
+    },
+    {
+      "name": "Lady Killer",
+      "specialPreReq": { "type": "charisma", "level": 2 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 7
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 22
+        }
+      ]
+    },
+    {
+      "name": "Lone Wanderer",
+      "specialPreReq": { "type": "charisma", "level": 3 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 17
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 40
+        }
+      ]
+    },
+    {
+      "name": "Attack Dog",
+      "specialPreReq": { "type": "charisma", "level": 4 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 9
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 25
+        }
+      ]
+    },
+    {
+      "name": "Animal Friend",
+      "specialPreReq": { "type": "charisma", "level": 5 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 12
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 28
+        }
+      ]
+    },
+    {
+      "name": "Local Leader",
+      "specialPreReq": { "type": "charisma", "level": 6 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 14
+        }
+      ]
+    },
+    {
+      "name": "Party Boy",
+      "specialPreReq": { "type": "charisma", "level": 7 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 15
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 37
+        }
+      ]
+    },
+    {
+      "name": "Inspirational",
+      "specialPreReq": { "type": "charisma", "level": 8 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 19
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 43
+        }
+      ]
+    },
+    {
+      "name": "Wasteland Whisperer",
+      "specialPreReq": { "type": "charisma", "level": 9 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 21
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 49
+        }
+      ]
+    },
+    {
+      "name": "Intimidation",
+      "specialPreReq": { "type": "charisma", "level": 10 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 23
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 50
+        }
+      ]
+    },
+    {
+      "name": "V.A.N.S",
+      "specialPreReq": { "type": "intelligence", "level": 1 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        }
+      ]
+    },
+    {
+      "name": "Medic",
+      "specialPreReq": { "type": "intelligence", "level": 2 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 18
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 30
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 49
+        }
+      ]
+    },
+    {
+      "name": "Gun Nut",
+      "specialPreReq": { "type": "intelligence", "level": 3 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 13
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 25
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 39
+        }
+      ]
+    },
+    {
+      "name": "Hacker",
+      "specialPreReq": { "type": "intelligence", "level": 4 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 9
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 21
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 33
+        }
+      ]
+    },
+    {
+      "name": "Scrapper",
+      "specialPreReq": { "type": "intelligence", "level": 5 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 23
+        }
+      ]
+    },
+    {
+      "name": "Science!",
+      "specialPreReq": { "type": "intelligence", "level": 6 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 17
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 28
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 41
+        }
+      ]
+    },
+    {
+      "name": "Chemist",
+      "specialPreReq": { "type": "intelligence", "level": 7 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 16
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 32
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 45
+        }
+      ]
+    },
+    {
+      "name": "Robotics Expert",
+      "specialPreReq": { "type": "intelligence", "level": 8 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 19
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 44
+        }
+      ]
+    },
+    {
+      "name": "Nuclear Physicist",
+      "specialPreReq": { "type": "intelligence", "level": 9 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 14
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 26
+        }
+      ]
+    },
+    {
+      "name": "Nerd Rage!",
+      "specialPreReq": { "type": "intelligence", "level": 10 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 31
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 50
+        }
+      ]
+    },
+    {
+      "name": "Gunslinger",
+      "specialPreReq": { "agility": 1 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 7
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 15
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 27
+        },
+        {
+          "rank": 5,
+          "levelPreReq": 42
+        }
+      ]
+    },
+    {
+      "name": "Comando",
+      "specialPreReq": { "agility": 2 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 11
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 21
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 35
+        },
+        {
+          "rank": 5,
+          "levelPreReq": 49
+        }
+      ]
+    },
+    {
+      "name": "Sneak",
+      "specialPreReq": { "agility": 3 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 5
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 12
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 23
+        },
+        {
+          "rank": 5,
+          "levelPreReq": 38
+        }
+      ]
+    },
+    {
+      "name": "Mister Sandman",
+      "specialPreReq": { "agility": 4 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 17
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 30
+        }
+      ]
+    },
+    {
+      "name": "Action Boy",
+      "specialPreReq": { "agility": 5 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 18
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 38
+        }
+      ]
+    },
+    {
+      "name": "Moving Target",
+      "specialPreReq": { "agility": 6 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 24
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 44
+        }
+      ]
+    },
+    {
+      "name": "Ninja",
+      "specialPreReq": { "agility": 7 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 16
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 33
+        }
+      ]
+    },
+    {
+      "name": "Quick Hands",
+      "specialPreReq": { "agility": 8 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 28
+        }
+      ]
+    },
+    {
+      "name": "Blitz",
+      "specialPreReq": { "agility": 9 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 29
+        }
+      ]
+    },
+    {
+      "name": "Gun Fu",
+      "specialPreReq": { "agility": 10 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 26
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 50
+        }
+      ]
+    },
+    {
+      "name": "Fortune Finder",
+      "specialPreReq": { "type": "luck", "level": 1 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 5
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 25
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 40
+        }
+      ]
+    },
+    {
+      "name": "Scrounger",
+      "specialPreReq": { "type": "luck", "level": 2 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 7
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 24
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 37
+        }
+      ]
+    },
+    {
+      "name": "Bloody Mess",
+      "specialPreReq": { "type": "luck", "level": 3 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 9
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 31
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 47
+        }
+      ]
+    },
+    {
+      "name": "Mysterious Stranger",
+      "specialPreReq": { "type": "luck", "level": 4 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 22
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 41
+        }
+      ]
+    },
+    {
+      "name": "Idiot Savant",
+      "specialPreReq": { "type": "luck", "level": 5 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 11
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 34
+        }
+      ]
+    },
+    {
+      "name": "Better Criticals",
+      "specialPreReq": { "type": "luck", "level": 6 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 15
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 40
+        }
+      ]
+    },
+    {
+      "name": "Critical Banker",
+      "specialPreReq": { "type": "luck", "level": 7 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 17
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 43
+        }
+      ]
+    },
+    {
+      "name": "Grim Reaper's Sprint",
+      "specialPreReq": { "type": "luck", "level": 8 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 19
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 46
+        }
+      ]
+    },
+    {
+      "name": "Four Leaf Clover",
+      "specialPreReq": { "type": "luck", "level": 9 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 14
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 32
+        },
+        {
+          "rank": 4,
+          "levelPreReq": 48
+        }
+      ]
+    },
+    {
+      "name": "Ricochet",
+      "specialPreReq": { "type": "luck", "level": 10 },
+      "ranks": [
+        {
+          "rank": 1,
+          "levelPreReq": 0
+        },
+        {
+          "rank": 2,
+          "levelPreReq": 29
+        },
+        {
+          "rank": 3,
+          "levelPreReq": 50
+        }
+      ]
     }
   ]
 }
