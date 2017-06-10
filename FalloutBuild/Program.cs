@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace FalloutBuild
@@ -8,51 +9,53 @@ namespace FalloutBuild
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
-            IEnumerable<string> specials = new string[]{"strength", "perception", "endurance", "charisma", "intelligence", "agility", "luck"};
-            IEnumerable<int> levels = Enumerable.Range(1, 10);
-
-            Console.WriteLine("{");
-            Console.WriteLine("  \"special\": [ \"strength\", \"perception\", \"endurance\", \"charisma\", \"intelligence\", \"agility\", \"luck\" ],");
-            Console.WriteLine("  \"perks\": [");
-
-            foreach (string special in specials)
+            string path = "output.txt";
+            using (StreamWriter writer = new StreamWriter(new FileStream(path, FileMode.Create)))
             {
-                foreach (int level in levels)
-                {
-                    Console.WriteLine("    {");
-                    Console.WriteLine("      \"NIY\": [");
-                    Console.WriteLine("        {");
-                    Console.WriteLine($"          \"specialPreReq\": {{ \"{special}\": {level} }}");
-                    Console.WriteLine("        },");
-                    Console.WriteLine("        {");
-                    Console.WriteLine("          \"rank\": 1,");
-                    Console.WriteLine("          \"preReq\": { \"level\":  }");
-                    Console.WriteLine("        },");
-                    Console.WriteLine("        {");
-                    Console.WriteLine("          \"rank\": 2,");
-                    Console.WriteLine("          \"preReq\": { \"level\":  }");
-                    Console.WriteLine("        },");
-                    Console.WriteLine("        {");
-                    Console.WriteLine("          \"rank\": 3,");
-                    Console.WriteLine("          \"preReq\": { \"level\":  }");
-                    Console.WriteLine("        },");
-                    Console.WriteLine("        {");
-                    Console.WriteLine("          \"rank\": 4,");
-                    Console.WriteLine("          \"preReq\": { \"level\":  }");
-                    Console.WriteLine("        },");
-                    Console.WriteLine("        {");
-                    Console.WriteLine("          \"rank\": 5,");
-                    Console.WriteLine("          \"preReq\": { \"level\":  }");
-                    Console.WriteLine("        },");
-                    Console.WriteLine("      ]");
-                    Console.WriteLine("    },");
-                }
-            }
+                IEnumerable<string> specials = new string[] { "strength", "perception", "endurance", "charisma", "intelligence", "agility", "luck" };
+                IEnumerable<int> levels = Enumerable.Range(1, 10);
 
-            Console.WriteLine("  ]");
-            Console.WriteLine("}");
+                writer.WriteLine("{");
+                writer.WriteLine("  \"special\": [ \"strength\", \"perception\", \"endurance\", \"charisma\", \"intelligence\", \"agility\", \"luck\" ],");
+                writer.WriteLine("  \"perks\": [");
+
+                foreach (string special in specials)
+                {
+                    foreach (int level in levels)
+                    {
+                        writer.WriteLine("    {");
+                        writer.WriteLine("      \"NIY\": {");
+                        writer.WriteLine($"        \"specialPreReq\": {{ \"{special}\": {level} }},");
+                        writer.WriteLine("         \"ranks\": [");
+                        writer.WriteLine("        {");
+                        writer.WriteLine("          \"rank\": 1,");
+                        writer.WriteLine("          \"levelPreReq\":  ");
+                        writer.WriteLine("        },");
+                        writer.WriteLine("        {");
+                        writer.WriteLine("          \"rank\": 2,");
+                        writer.WriteLine("          \"levelPreReq\":  ");
+                        writer.WriteLine("        },");
+                        writer.WriteLine("        {");
+                        writer.WriteLine("          \"rank\": 3,");
+                        writer.WriteLine("          \"levelPreReq\":  ");
+                        writer.WriteLine("        },");
+                        writer.WriteLine("        {");
+                        writer.WriteLine("          \"rank\": 4,");
+                        writer.WriteLine("          \"levelPreReq\":  ");
+                        writer.WriteLine("        },");
+                        writer.WriteLine("        {");
+                        writer.WriteLine("          \"rank\": 5,");
+                        writer.WriteLine("          \"levelPreReq\":  ");
+                        writer.WriteLine("        },");
+                        writer.WriteLine("        ]");
+                        writer.WriteLine("      }");
+                        writer.WriteLine("    },");
+                    }
+                }
+
+                writer.WriteLine("  ]");
+                writer.WriteLine("}");
+            }
         }
     }
 }
