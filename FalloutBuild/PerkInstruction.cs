@@ -1,8 +1,8 @@
 ﻿namespace FalloutBuild
 {
-    public class PerkInfo
+    public class PerkInstruction
     {
         public string Perk;
-        public string Level;
+        public int PerkLevel;
     }
 }

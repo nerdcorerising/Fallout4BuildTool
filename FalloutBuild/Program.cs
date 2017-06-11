@@ -14,6 +14,10 @@ namespace FalloutBuild
             SkillPriorityQueue queue = new SkillPriorityQueue(path);
 
             Build build = queue.GetBuild();
+            if(build == null)
+            {
+                return;
+            }
 
             using (StreamWriter writer = new StreamWriter(new FileStream("Build.txt", FileMode.Create)))
             {
@@ -26,11 +30,11 @@ namespace FalloutBuild
 
                 writer.WriteLine("Perk investment per level:");
 
-                IEnumerable<PerkInfo> infos = build.BuildOrder;
+                IEnumerable<PerkInstruction> infos = build.BuildOrder;
                 for (int i = 0; i < infos.Count(); ++i)
                 {
-                    PerkInfo info = infos.ElementAt(i);
-                    writer.WriteLine($"    Level {i}: {info.Perk} level {info.Level}");
+                    PerkInstruction info = infos.ElementAt(i);
+                    writer.WriteLine($"    Level {i + 2}: {info.Perk} level {info.PerkLevel}");
                 }
             }
         }
