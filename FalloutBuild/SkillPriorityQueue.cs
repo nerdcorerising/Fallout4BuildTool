@@ -50,7 +50,19 @@ namespace FalloutBuild
             {
                 GetNextPerk(out PriorityPerkRequest next, out int pos);
 
-                if (!IsSpecial(next.Perk))
+                if (IsSpecial(next.Perk))
+                {
+                    if(_initalSpecialPoints > 0)
+                    {
+                        _initalSpecialPoints--;
+                        Special target = (Special)Enum.Parse(typeof(Special), next.Perk);
+                        _initialBuild[target]++;
+                        RemoveSpecialsFromQueue(target, _initialBuild[target]);
+
+                        continue;
+                    }
+                }
+                else
                 {
                     EnsureSpecialForPerk(next.Perk, next.PerkLevel);
                 }
@@ -113,11 +125,16 @@ namespace FalloutBuild
                     PerkInstruction pi = new PerkInstruction() { Perk = requiredSpecial.ToString(), PerkLevel = currentLevel + 1 };
                 }
 
-                // Remove special from queue of desired investments
-                _queue.RemoveAll(x => x.Perk.ToLower() == requiredSpecial.ToString().ToLower() && x.PerkLevel == currentLevel + 1);
+                RemoveSpecialsFromQueue(requiredSpecial, currentLevel + 1);
 
                 diff--;
             }
+        }
+
+        private void RemoveSpecialsFromQueue(Special requiredSpecial, int level)
+        {
+            // Remove special from queue of desired investments
+            _queue.RemoveAll(x => x.Perk.ToLower() == requiredSpecial.ToString().ToLower() && x.PerkLevel == level);
         }
 
         private bool BuildQueueFromFile(string path)
@@ -271,9 +288,13 @@ namespace FalloutBuild
             string candidate = null;
             int closest = Int32.MinValue;
 
-            foreach(Perk perk in _data.perks)
+            IEnumerable<String> specialStrings = EnumHelper.GetEnumValues<Special>().Select(x => x.ToString());
+            IEnumerable<String> perkStrings = _data.perks.Select(x => x.name);
+            IEnumerable<String> searchStrings = specialStrings.Union(perkStrings); 
+
+            foreach(String str in searchStrings)
             {
-                string currentName = perk.name.ToLower();
+                string currentName = str.ToLower();
                 int numInCommon = GetNumberOfCharactersInCommon(currentName, perkName.ToLower());
 
                 if (numInCommon > closest)
