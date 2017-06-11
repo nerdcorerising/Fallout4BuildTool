@@ -49,7 +49,11 @@ namespace FalloutBuild
             while(_queue.Count > 0)
             {
                 GetNextPerk(out PriorityPerkRequest next, out int pos);
-                EnsureSpecialForPerk(next.Perk, next.PerkLevel);
+
+                if (!IsSpecial(next.Perk))
+                {
+                    EnsureSpecialForPerk(next.Perk, next.PerkLevel);
+                }
 
                 PerkInstruction pi = new PerkInstruction() { Perk = next.Perk, PerkLevel = next.PerkLevel };
                 _buildOrder.Add(pi);
@@ -97,7 +101,8 @@ namespace FalloutBuild
             int diff = requiredLevel - currentLevel;
             while (diff > 0)
             {
-                if(_initalSpecialPoints > 0)
+                currentLevel = _initialBuild[requiredSpecial] + _investedPoints[requiredSpecial];
+                if (_initalSpecialPoints > 0)
                 {
                     _initalSpecialPoints--;
                     _initialBuild[requiredSpecial]++;
@@ -105,8 +110,11 @@ namespace FalloutBuild
                 else
                 {
                     _investedPoints[requiredSpecial]++;
-                    PerkInstruction pi = new PerkInstruction() { Perk = requiredSpecial.ToString(), PerkLevel = _currentLevel + 1 };
+                    PerkInstruction pi = new PerkInstruction() { Perk = requiredSpecial.ToString(), PerkLevel = currentLevel + 1 };
                 }
+
+                // Remove special from queue of desired investments
+                _queue.RemoveAll(x => x.Perk.ToLower() == requiredSpecial.ToString().ToLower() && x.PerkLevel == currentLevel + 1);
 
                 diff--;
             }
@@ -168,19 +176,10 @@ namespace FalloutBuild
                 return false;
             }
 
+            int specifiedLevel = 0;
             string perkName = parts[0].Trim();
-            IEnumerable<Perk> matches = _data.perks.Where(x => x.name == perkName);
-            if(matches.Count() <= 0)
-            {
-                string closestName = GetClosestPerkName(perkName);
-                Console.Error.WriteLine($"Perk {perkName} does not exist on line #{lineNum}. Did you mean {closestName}?");
-                return false;
-            }
+            Perk match = null;
 
-            Perk match = matches.First();
-
-            int maxLevel = GetMaxLevelForPerk(perkName);
-            int specifiedLevel;
             if (parts.Length > 1)
             {
                 if (!Int32.TryParse(parts[1], out specifiedLevel))
@@ -188,22 +187,60 @@ namespace FalloutBuild
                     Console.Error.WriteLine($"Invalid max rank {parts[1]} on line #{lineNum}, is not a number.");
                     return false;
                 }
+            }
 
-                if (specifiedLevel > maxLevel)
+            if (IsSpecial(perkName))
+            {
+                if (specifiedLevel == 0)
                 {
-                    Console.Error.WriteLine($"Level {specifiedLevel} is greater than max level {maxLevel} for perk {perkName}");
-                    return false;
+                    specifiedLevel = 10;
+                }
+                else
+                {
+                    if (specifiedLevel < 0 || specifiedLevel > 10)
+                    {
+                        Console.Error.WriteLine($"Level {specifiedLevel} for Special {perkName} is invalid. Must be between 1 and 10.");
+                        return false;
+                    }
                 }
             }
             else
             {
-                specifiedLevel = maxLevel;
-            }
+                IEnumerable<Perk> matches = _data.perks.Where(x => x.name == perkName);
+                if (matches.Count() <= 0)
+                {
+                    string closestName = GetClosestPerkName(perkName);
+                    Console.Error.WriteLine($"Perk {perkName} does not exist on line #{lineNum}. Did you mean {closestName}?");
+                    return false;
+                }
 
+                match = matches.First();
+
+                int maxLevel = GetMaxLevelForPerk(perkName);
+
+                if (specifiedLevel > 0)
+                {
+                    if (specifiedLevel > maxLevel)
+                    {
+                        Console.Error.WriteLine($"Level {specifiedLevel} is greater than max level {maxLevel} for perk {perkName}");
+                        return false;
+                    }
+                }
+                else
+                {
+                    specifiedLevel = maxLevel;
+                }
+            }
             for (int i = 1; i <= specifiedLevel; ++i)
             {
-                Rank currentRank = match.ranks.Where(x => x.rank == i).First();
-                int requiredLevel = currentRank.levelPreReq;
+                // Specials have no match, keep it at 0
+                int requiredLevel = 0;
+                if (match != null)
+                {
+                    Rank currentRank = match.ranks.Where(x => x.rank == i).First();
+                    requiredLevel = currentRank.levelPreReq;
+                }
+
                 PriorityPerkRequest pi = new PriorityPerkRequest()
                 {
                     Perk = perkName,
@@ -211,10 +248,22 @@ namespace FalloutBuild
                     Priority = pri,
                     RequiredCharacterLevel = requiredLevel
                 };
+
+                if(IsSpecial(perkName) && i == 1)
+                {
+                    // Skip specials for rank 1, already have it by default
+                    continue;
+                }
+
                 _queue.Add(pi);
             }
 
             return true;
+        }
+
+        private bool IsSpecial(string perkName)
+        {
+            return Enum.TryParse<Special>(perkName, out _);
         }
 
         private string GetClosestPerkName(string perkName)

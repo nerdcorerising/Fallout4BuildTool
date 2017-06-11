@@ -6,5 +6,10 @@
         public int PerkLevel;
         public int Priority;
         public int RequiredCharacterLevel;
+
+        public override string ToString()
+        {
+            return $"{Perk}: {PerkLevel} Pri:{Priority} ReqCharLevel:{RequiredCharacterLevel}";
+        }
     }
 }

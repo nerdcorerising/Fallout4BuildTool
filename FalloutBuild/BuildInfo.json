@@ -951,7 +951,7 @@
     },
     {
       "name": "Gunslinger",
-      "specialPreReq": { "agility": 1 },
+      "specialPreReq": {  "type": "agility", "level": 1 },
       "ranks": [
         {
           "rank": 1,
@@ -977,7 +977,7 @@
     },
     {
       "name": "Comando",
-      "specialPreReq": { "agility": 2 },
+      "specialPreReq": {  "type": "agility", "level": 2 },
       "ranks": [
         {
           "rank": 1,
@@ -1003,7 +1003,7 @@
     },
     {
       "name": "Sneak",
-      "specialPreReq": { "agility": 3 },
+      "specialPreReq": {  "type": "agility", "level": 3 },
       "ranks": [
         {
           "rank": 1,
@@ -1029,7 +1029,7 @@
     },
     {
       "name": "Mister Sandman",
-      "specialPreReq": { "agility": 4 },
+      "specialPreReq": {  "type": "agility", "level": 4 },
       "ranks": [
         {
           "rank": 1,
@@ -1047,7 +1047,7 @@
     },
     {
       "name": "Action Boy",
-      "specialPreReq": { "agility": 5 },
+      "specialPreReq": {  "type": "agility", "level": 5 },
       "ranks": [
         {
           "rank": 1,
@@ -1065,7 +1065,7 @@
     },
     {
       "name": "Moving Target",
-      "specialPreReq": { "agility": 6 },
+      "specialPreReq": {  "type": "agility", "level": 6 },
       "ranks": [
         {
           "rank": 1,
@@ -1083,7 +1083,7 @@
     },
     {
       "name": "Ninja",
-      "specialPreReq": { "agility": 7 },
+      "specialPreReq": {  "type": "agility", "level": 7 },
       "ranks": [
         {
           "rank": 1,
@@ -1101,7 +1101,7 @@
     },
     {
       "name": "Quick Hands",
-      "specialPreReq": { "agility": 8 },
+      "specialPreReq": {  "type": "agility", "level": 8 },
       "ranks": [
         {
           "rank": 1,
@@ -1115,7 +1115,7 @@
     },
     {
       "name": "Blitz",
-      "specialPreReq": { "agility": 9 },
+      "specialPreReq": {  "type": "agility", "level": 9 },
       "ranks": [
         {
           "rank": 1,
@@ -1129,7 +1129,7 @@
     },
     {
       "name": "Gun Fu",
-      "specialPreReq": { "agility": 10 },
+      "specialPreReq": {  "type": "agility", "level": 10 },
       "ranks": [
         {
           "rank": 1,
