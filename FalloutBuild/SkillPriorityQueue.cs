@@ -14,7 +14,7 @@ namespace FalloutBuild
         private PerksData _data;
         private List<PriorityPerkRequest> _queue = new List<PriorityPerkRequest>();
         private int _currentLevel = 2;
-        private int _initalSpecialPoints = 21;
+        private int _initialSpecialPoints = 21;
         private List<PerkInstruction> _buildOrder = new List<PerkInstruction>();
         private Dictionary<Special, int> _initialBuild = new Dictionary<Special, int>();
         private Dictionary<Special, int> _investedPoints = new Dictionary<Special, int>();
@@ -52,12 +52,13 @@ namespace FalloutBuild
 
                 if (IsSpecial(next.Perk))
                 {
-                    if(_initalSpecialPoints > 0)
+                    if(_initialSpecialPoints > 0)
                     {
-                        _initalSpecialPoints--;
+                        _initialSpecialPoints--;
                         Special target = (Special)Enum.Parse(typeof(Special), next.Perk);
                         _initialBuild[target]++;
-                        RemoveSpecialsFromQueue(target, _initialBuild[target]);
+                        _queue.RemoveAt(pos);
+                        //RemoveSpecialsFromQueue(target, _initialBuild[target]);
 
                         continue;
                     }
@@ -114,9 +115,9 @@ namespace FalloutBuild
             while (diff > 0)
             {
                 currentLevel = _initialBuild[requiredSpecial] + _investedPoints[requiredSpecial];
-                if (_initalSpecialPoints > 0)
+                if (_initialSpecialPoints > 0)
                 {
-                    _initalSpecialPoints--;
+                    _initialSpecialPoints--;
                     _initialBuild[requiredSpecial]++;
                 }
                 else

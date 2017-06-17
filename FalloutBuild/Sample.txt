@@ -3,5 +3,5 @@
 # Lower number for priority wins. Omitting the max rank means take ever rank available.
 
 1: Locksmith-1, Sneak, Ninja, Action Boy, Gunslinger, Gun Nut, Mister Sandman
-2: Bloody Mess, Agility
-3: Local Leader, Cap Collector, Medic-1, Scrapper, Science!, Better Criticals, Grim Reaper's Sprint, Luck-8, Charisma-8, Intelligence-8
+2: Bloody Mess, Charisma-8, Agility
+3: Local Leader, Cap Collector, Medic-1, Scrapper, Science!, Better Criticals, Grim Reaper's Sprint, Luck-8, Intelligence-8
