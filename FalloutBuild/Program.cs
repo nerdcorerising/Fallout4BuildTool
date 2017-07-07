@@ -10,7 +10,20 @@ namespace FalloutBuild
     {
         static void Main(string[] args)
         {
-            string path = "Sample.txt";
+            if (args.Length != 1 || args[0].Equals("help", StringComparison.OrdinalIgnoreCase))
+            {
+                PrintUsage();
+                return;
+            }
+
+            string path = args[0];
+            if(!File.Exists(path))
+            {
+                Console.Error.WriteLine($"Error file {path} not found.");
+                PrintUsage();
+                return;
+            }
+
             SkillPriorityQueue queue = new SkillPriorityQueue(path);
 
             Build build = queue.GetBuild();
@@ -37,6 +50,13 @@ namespace FalloutBuild
                     writer.WriteLine($"    Level {i + 2}: {info.Perk} level {info.PerkLevel}");
                 }
             }
+        }
+
+        private static void PrintUsage()
+        {
+            Console.WriteLine("Usage: FalloutBuild.exe <path to build file.txt>");
+            Console.WriteLine("Creates the build in Build.txt. Will overwrite Build.Txt on every run.");
+            Console.WriteLine("See Sample.txt for how the build file should be formatted.");
         }
     }
 }
