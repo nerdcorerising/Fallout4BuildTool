@@ -54,7 +54,7 @@ namespace FalloutBuild
 
         private static void PrintUsage()
         {
-            Console.WriteLine("Usage: FalloutBuild.exe <path to build file.txt>");
+            Console.WriteLine("Usage: dotnet FalloutBuild.dll <path to build file.txt>");
             Console.WriteLine("Creates the build in Build.txt. Will overwrite Build.Txt on every run.");
             Console.WriteLine("See Sample.txt for how the build file should be formatted.");
         }
