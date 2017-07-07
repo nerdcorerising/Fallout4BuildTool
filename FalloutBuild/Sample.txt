@@ -2,6 +2,6 @@
 # Written in the form of <priority number>: <skill 1 name>-<max skill 1 rank>, <skill 2 name>-<max skill 2 rank>, ...
 # Lower number for priority wins. Omitting the max rank means take ever rank available.
 
-1: Locksmith-1, Sneak, Ninja, Action Boy, Gunslinger, Gun Nut, Mister Sandman
-2: Bloody Mess, Charisma-8, Agility
-3: Local Leader, Cap Collector, Medic-1, Scrapper, Science!, Better Criticals, Grim Reaper's Sprint, Luck-8, Intelligence-8
+1: Rifleman, Sneak, Ninja, Action Boy, Gun Nut, Mister Sandman
+2: Lone Wanderer, Bloody Mess, Agility, Perception-8 
+3: Armorer, Pickpocket, Medic-2, Sniper, Locksmith-1, Science!, Penetrator, Concentrated Fire, Quick Hands, Better Criticals

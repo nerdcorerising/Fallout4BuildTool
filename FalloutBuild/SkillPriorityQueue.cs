@@ -124,6 +124,7 @@ namespace FalloutBuild
                 {
                     _investedPoints[requiredSpecial]++;
                     PerkInstruction pi = new PerkInstruction() { Perk = requiredSpecial.ToString(), PerkLevel = currentLevel + 1 };
+                    _buildOrder.Add(pi);
                 }
 
                 RemoveSpecialsFromQueue(requiredSpecial, currentLevel + 1);
